@@ -1,0 +1,26 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Local model artifacts
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+#Include the model required by the deployed app
+!models/fraud_detection_model.joblib
