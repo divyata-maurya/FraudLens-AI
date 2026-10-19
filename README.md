@@ -198,4 +198,4 @@ This project is intended for educational and portfolio purposes only. Prediction
 
 **Divyata Maurya**
 
-GitHub: 
+GitHub: https://github.com/divyata-maurya/FraudLens-AI
